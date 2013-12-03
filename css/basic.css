@@ -1,1 +1,83 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+
+
+
+
+
+
+
+
+#container {
+        overflow: hidden;
+        width: 600px;
+        margin: 20px auto;
+        background: url('pics/coffey.jpg') #51473D;
+        background-position: 0 15px;
+        background-repeat: no-repeat;
+        border: 1px solid #cecab9;
+        font-family: 'Verdana';
+
+    
+    
+}
+
+
+
+
+
+#topbar {
+        text-align: right;
+        color: white;
+        font-size: 10px;
+        
+       
+
+}
+
+
+
+
+
+
+
+
+
+
+#menu
+
+
+
+
+
+
+
+
+
+#content
+
+
+
+
+
+#maincontent {
+                
+            
+    
+}
+
+    
+
+
+
+
+
+
+#subcontent
+
+
+
+
+
+
+
