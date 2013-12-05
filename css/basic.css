@@ -53,7 +53,6 @@ table {
 
 
 
-
 /* BAKGRUND+BILD-BAKGRUND+BILD-BAKGRUND+BILD-BAKGRUND+BILD-BAKGRUND+BILD-*/
 
 #container {
@@ -84,7 +83,9 @@ table {
 
 /* MENY-MENY-MENY-MENY-MENY-MENY-MENY-MENY-MENY-MENY-MENY-MENY-MENY-MENY-*/
 #menu {
+        clear: inherit;
         margin-top: 210px;
+        height: 30px;
 }
 #menu ul li{
         list-style: none;
@@ -94,22 +95,25 @@ table {
         
 }
 #menu ul {
-        padding: 8px;
+        padding: 6px 10px;
 }
 #menu ul li a {
-                border-top: 2px solid #847D73;
+                border-top: 1px solid #847D73;
                 background: #797167;
-                padding: 5px 10px;
-                padding-bottom: 10px;
+                padding: 7px 20px;
+                padding-bottom: 7px;
                 text-decoration:none;
                 text-transform: capitalize;
                 color: #eae7d2;
+                font-size:80%
     
 }
 #menu ul .active a{
         background: #eae7d2;
         color: #797066;
-        border: none;
+        border-bottom: 1px solid #eae7d2;
+        font-size:80%;
+        
 }
 #menu > a {
     display:none;
@@ -119,7 +123,8 @@ table {
 #content    {
             background-color: #EAE9D3;
             width: 600;
-            
+            border-top: 1px solid white;
+            border-top: 1px #797167e;
 }
 
 
@@ -127,15 +132,20 @@ table {
 
 
 #maincontent {
-        margin-top: 20px;
+        
+        margin-top: 10px;
         float: left;
         padding: 10px;
         width: 348px;
         height: auto;
 }
+
+
+
+
 #maincontent img{
                 float:left;
-                padding: 0 5px 0px 0;
+                padding: 0 5px 0 0;
     
     
 }
@@ -157,11 +167,22 @@ table {
 
 
 #subcontent {
+            clear:right;
             width: 210px;   
             float: right;
-            margin-top: 20px;
+            margin-top: 25px;
             padding: 10px;
             height: auto;
+            border-left-style: groove; 
+border-left-style: dashed ; 
+border-left-color: silver; 
+border-left-width: 1px;
+            
+            
+            
+            
+            
+            
 }
 #subcontent ul{
         padding: 0;
@@ -178,29 +199,36 @@ table {
 }
 #subcontent h1{
         font-weight: normal;
-        font-size: 20px;
+        font-size: 18px;
+        font-family: "Timesnewroman";
         margin-bottom: 20px;
-        color: #797167;
+        color: #51483E;
 }
 #subcontent h2{
-        font-size: 16px;
-        margin-bottom: 0;
+        font-size: 14px;
+        font-family: "Timesnewroman";
+        line-height: 20px;
         font-weight: normal;
-        color: #797167;
+        color: #51483E;
 }
 #subcontent ul li a{
-        color: #797167;
+        color: #51483E;
+        font-size:75%;
+        line-height: 20px;
+        font-family: "Verdana";
+        margin-bottom: 3px;
 }
 
 
 #bottomcontent {
         
+        
         background: #EAE7D2;
         padding: 10px;
-        color: #EAE9D3;
+        color: #797167;
         font-size: 10px;
         font-style: italic;
-        
+        line-height: 15px;
     
 }
 
