@@ -193,8 +193,8 @@ border-left-width: 1px;
 }
 #subcontent p{
         font-size: 9px;
-        line-height: 22px;
-        margin-bottom: 30px;
+        line-height: 21px;
+        margin-bottom: 20px;
         color: #797167;
 }
 #subcontent h1{
@@ -222,7 +222,7 @@ border-left-width: 1px;
 
 #bottomcontent {
         
-        
+        clear:left;
         background: #EAE7D2;
         padding: 10px;
         color: #797167;
