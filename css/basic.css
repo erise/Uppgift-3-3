@@ -96,6 +96,10 @@ table {
 }
 #menu ul {
         padding: 6px 10px;
+        
+}
+#menu li a:hover {  background-color:#9c9084;
+    
 }
 #menu ul li a {
                 border-top: 1px solid #847D73;
@@ -229,6 +233,7 @@ border-left-width: 1px;
         font-size: 10px;
         font-style: italic;
         line-height: 15px;
+        padding-left: 10px;
     
 }
 
